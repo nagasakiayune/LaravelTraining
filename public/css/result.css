@@ -1,0 +1,20 @@
+h2{
+    border-bottom: 5px solid #dddddd;
+    margin: 0 auto;
+}
+h3 {
+	font-size: 25px;
+	font-weight: 250;
+	width: 850px;
+    margin: 10px auto;
+}
+
+.menu{
+    background-color: #ffffff;
+	width: 130px;
+	height: 40px;
+	border: solid 1px #000000;
+	border-radius: 7px;
+	font-size: 15px;
+    margin: 10px 0 8px 1000px;
+}
