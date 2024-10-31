@@ -23,7 +23,7 @@ Route::post('/information', 'App\Http\Controllers\UserController@information');
 
 Route::get('/create', 'App\Http\Controllers\UserController@create');
 
-Route::post('/create_result', 'App\Http\Controllers\UserController@createResult');
+Route::post('/createResult', 'App\Http\Controllers\UserController@createResult');
 
 Route::get('/update/{id}', 'App\Http\Controllers\UserController@update');
 
@@ -31,6 +31,6 @@ Route::post('/updateResult', 'App\Http\Controllers\UserController@updateResult')
 
 Route::get('/delete/{id}', 'App\Http\Controllers\UserController@delete');
 
-Route::post('/delete_result', 'App\Http\Controllers\UserController@deleteResult');
+Route::post('/deleteResult', 'App\Http\Controllers\UserController@deleteResult');
 
 
